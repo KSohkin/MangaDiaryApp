@@ -1,0 +1,131 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  position: relative;
+  margin: 0px;
+}
+
+h1 {
+    color: rgb(235, 234, 234);
+    margin-left: 10%;
+}
+
+body {
+    margin: 0;
+}
+
+.AddNewButton {
+    color:  rgb(92, 236, 79);
+    align-items: right;
+    display: block;
+    float: right;
+    margin-right: 15%;
+}
+
+.NewPanelButton {
+    background-color: green;
+    color: white;
+    width: 120px;
+    display: block;
+    height: 40px;
+    align-content: center;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.NewPanelButton:hover {
+    background-color: rgb(1, 179, 1);
+    color: white;
+
+}
+
+.Background {
+    background-color: lightslategray;
+    width: 60%;
+    display: flex;
+    margin-top: 25px;
+    height: 120px;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.InputColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Mangapanel {
+    display: flex;
+    justify-content: center; 
+    margin-top: 25px;
+}
+
+.Deletebutton {
+    height: 30px;
+    width: 120px;
+    background-color: rgb(216, 4, 4);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.Deletebutton:hover {
+    height: 30px;
+    width: 120px;
+    background-color: rgb(187, 5, 5);
+
+
+}
+
+.Savebutton {
+    height: 40px;
+    width: 120px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.Readbutton {
+    height: 40px;
+    width: 120px;
+    background-color: rgb(137, 222, 215);
+    position: absolute;
+    right: 150px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Readbutton:hover {
+    height: 40px;
+    width: 120px;
+    align-self: center;
+    display: block;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(122, 197, 191);
+
+}
+
+input {
+    width: 220px;
+    height: 30px;
+    padding: 5px;
+}
+
+.Manganame {
+    width: 400px;
+}
+
+.Chapter_read {
+    width: 120px;
+}
+
+.Time_Date {
+    position: absolute;
+    right: 290px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+}
